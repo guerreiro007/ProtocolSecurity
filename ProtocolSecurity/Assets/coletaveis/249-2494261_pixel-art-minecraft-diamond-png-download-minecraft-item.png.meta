@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 798325e96d161fe47821fa22f96f502f
+guid: f7fd37e14be269e478f5c586b41e8d84
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3428258685976407377
-    second: Virus_0
+      213: -6306452650684547638
+    second: 249-2494261_pixel-art-minecraft-diamond-png-download-minecraft-item_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -98,13 +98,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Virus_0
+      name: 249-2494261_pixel-art-minecraft-diamond-png-download-minecraft-item_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 9
-        width: 32
-        height: 40
+        x: 0
+        y: 0
+        width: 920
+        height: 980
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,8 +112,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 15d65c77c1f939f20800000000000000
-      internalID: 3428258685976407377
+      spriteID: acd702b2abafa78a0800000000000000
+      internalID: -6306452650684547638
       vertices: []
       indices: 
       edges: []
@@ -129,7 +129,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Virus_0: 3428258685976407377
+      249-2494261_pixel-art-minecraft-diamond-png-download-minecraft-item_0: -6306452650684547638
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

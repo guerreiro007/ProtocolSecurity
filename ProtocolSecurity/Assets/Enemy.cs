@@ -32,4 +32,13 @@ public class Enemy : MonoBehaviour
     {
         rb.MovePosition((Vector2)transform.position + (direction * moveSpeed * Time.deltaTime));
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "player")
+        {
+            Destroy(collision.gameObject);
+        }
+    }
 }
+
