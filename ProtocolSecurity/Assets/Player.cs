@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -11,7 +12,9 @@ public class PlayerMovement : MonoBehaviour
 
     Vector2 movement;
 
-    public int letras;
+    public int letras = 0;
+
+    [SerializeField] private Text letrasText;
 
     // Update is called once per frame
     void Update()
@@ -35,6 +38,7 @@ public class PlayerMovement : MonoBehaviour
         {
             Destroy(collision.gameObject);
             letras++;
+            letrasText.text = "Letras: " + letras;
         }
     }
 }
